@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@android:color/white"
+    tools:context="com.example.chat.findit.SplashActivity">
+
+    <ImageView
+        android:id="@+id/launcher_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"
+
+        android:contentDescription="@string/launcher_icon"
+        android:src="@drawable/aboutus"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/launcher_icon"
+        android:gravity="center"
+        android:text="FindIt"
+        android:textColor="@color/colorPrimary"
+        android:textSize="75sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/version_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_marginTop="@dimen/hoe"
+        android:gravity="center"
+        android:text="BY"
+        android:textColor="@color/color_secondary_text"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/version_number"
+        android:layout_marginTop="@dimen/hoe"
+        android:gravity="center"
+        android:text="@string/developed_by_text"
+        android:textColor="@color/color_primary_text"
+        android:textSize="28sp"/>
+
+</RelativeLayout>

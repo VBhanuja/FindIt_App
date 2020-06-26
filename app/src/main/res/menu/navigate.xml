@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/location_favourite"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="@string/favourite"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/about_icon"
+        android:icon="@drawable/ic_domain_black_24dp"
+        android:title="@string/about_me"
+        app:showAsAction="ifRoom"/>
+</menu>

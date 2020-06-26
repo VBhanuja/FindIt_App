@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_map_height">220dp</dimen>
+    <dimen name="padding_end">32dp</dimen>
+    <dimen name="padding_start">32dp</dimen>
+    <dimen name="add_start">8dp</dimen>
+    <dimen name="add_end">8dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="icon_Widht">160dp</dimen>
+    <dimen name="icon_height">160dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margin_top">4dp</dimen>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="image_widht">36dp</dimen>
+    <dimen name="image_height">36dp</dimen>
+    <dimen name="margin_start">16dp</dimen>
+    <dimen name="image">8dp</dimen>
+    <dimen name="beenhere_widht">40dp</dimen>
+    <dimen name="beenhere_height">40dp</dimen>
+    <dimen name="to">2dp</dimen>
+    <dimen name="kk">18dp</dimen>
+    <dimen name="widht">64dp</dimen>
+    <dimen name="height">64dp</dimen>
+    <dimen name="width">120dp</dimen>
+    <dimen name="hi">120dp</dimen>
+    <dimen name="hoe">4dp</dimen>
+    <dimen name="di">192dp</dimen>
+    <dimen name="dim">96dp</dimen>
+    <dimen name="hihi">24dp</dimen>
+    <dimen name="bottom">20dp</dimen>
+    <dimen name="one">1dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>
